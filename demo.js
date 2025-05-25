@@ -1,5 +1,9 @@
-function solve(arr) {
-  let index = arr.indexOf(5);
-  console.log(index);
+function solve() {
+  let a = [1, 2, 3, 4];
+  let b = a;
+
+  b.push(5);
+  console.log(a);
+  console.log(b);
 }
-solve([1, 2, 3, 4]);
+solve();
